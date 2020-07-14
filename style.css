@@ -9,20 +9,34 @@
   margin-bottom: 4rem;
 }
 
+.carousel-inner {
+  width: 100%;
+  height: 46rem;
+  overflow: hidden;
+  align-items: center;
+}
+
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 46rem;
+  width: 100%;
   background-color: #777;
 }
 .carousel-item > img {
   position: absolute;
   top: -10rem;
-  left: 0;
-  min-width: 100%;
-  height: 64rem;
+  width: 100%;
 }
 
+.thumbnailContainer {
+  height: 260px;
+  width: 100%;
+  overflow: hidden;
+}
 
+.card-img-top {
+  width: 100%;
+  display: block;
+}
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
